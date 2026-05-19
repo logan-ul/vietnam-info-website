@@ -7,6 +7,10 @@ a:visited {
   color: black;
 }
 
+h1 {
+  color: #b22222;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -121,24 +125,25 @@ main {
   bottom: 0;
   left: 50%;
   margin-left: -3px;
+  border-radius: 5px;
 }
 
-.container {
+.container-timeline {
   position: relative;
   width: 50%;
   padding: 20px 40px;
 }
 
-.container.left {
+.container-timeline.left {
   left: -76px;
 }
 
-.container.right {
+.container-timeline.right {
   left: 50%;
 }
 
 /* Timeline dots */
-.container::after {
+.container-timeline::after {
   content: "";
   position: absolute;
   width: 22px;
@@ -151,7 +156,7 @@ main {
   z-index: 10;
 }
 
-.container.right::after {
+.container-timeline.right::after {
   left: -15px;
 }
 
@@ -172,19 +177,18 @@ main {
   border-radius: 10px;
   margin-bottom: 15px;
   object-fit: cover;
-  max-height: 220px;
 }
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-  .timeline::after {
-    left: 30px;
-  }
-
   .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 20px;
+  }
+
+  .content {
+    width: 30%;
   }
 
   .container.right {
