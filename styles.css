@@ -187,9 +187,16 @@ main {
     padding-right: 20px;
   }
 
-  .content {
-    width: 30%;
+  .container-timeline.left div.content {
+    width: 70%;
+    margin-left: 20%;
   }
+
+  .container-timeline.right div.content {
+    width: 70%;
+    margin-right: 20%;
+  }
+
 
   .container.right {
     left: 0;
