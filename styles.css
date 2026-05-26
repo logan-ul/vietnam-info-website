@@ -78,8 +78,7 @@ p {
   margin: 10px;
   width: auto;
   height: auto;
-
-  margin-right: 31%;
+  margin-right: 28.5%;
 }
 
 main {
@@ -102,7 +101,7 @@ main {
 
 .pic-container img {
   width: 20%;
-  border-radius: 2px;
+  border-radius: 10px;
   margin: 10px;
   margin-right: 0;
 }
