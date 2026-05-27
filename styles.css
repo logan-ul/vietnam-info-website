@@ -11,9 +11,16 @@ h1 {
   color: #b22222;
 }
 
+h2 {
+  color: #b22222;
+  font-size: 1.7em;
+}
+
 p {
   font-size: 1.2em;
 }
+
+
 
 .dropdown:hover .dropdown-content {
   display: block;
