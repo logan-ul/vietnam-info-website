@@ -223,25 +223,25 @@ main {
 }
 
 footer {
-	font-size: small;
-	text-align: center;
-	background-color: #fde3ab;
-	border-top: 2px solid black;
-	bottom: 0;
-	position: fixed;
-	width: 100%;
-	z-index: 98;
+  font-size: small;
+  text-align: center;
+  background-color: #fde3ab;
+  border-top: 2px solid black;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 98;
 }
 
-footer.small {
-	height: 25px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+footer.small{
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-footer ul {
-	list-style-type: none;
+footer ul{
+  list-style-type: none;
 }
 
 body {
